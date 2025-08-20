@@ -1,0 +1,126 @@
+Certainly! Below is a sample `globals.css` file for a luxury FashionTV cosmetics website, designed with an elegant and high-end aesthetic in pink and white colors. This CSS file can be used in a React/TypeScript project.
+
+```css
+/* globals.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Global styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #d5006d; /* Elegant pink color */
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Links */
+a {
+    color: #d5006d; /* Elegant pink color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #a4004f; /* Darker pink on hover */
+}
+
+/* Buttons */
+button {
+    background-color: #d5006d; /* Elegant pink color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a4004f; /* Darker pink on hover */
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Card styles for products */
+.card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image styles */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+```
+
+### Usage
+To use this `globals.css` file in your React/TypeScript project, make sure to import it in your main entry file (e.g., `index.tsx` or `App.tsx`):
+
+```tsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './globals.css'; // Import the global styles
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+```
+
+This CSS file provides a foundation for a luxury cosmetics website with a focus on elegance and high-end design, using pink and white colors throughout. You can further customize it based on your specific design requirements.
